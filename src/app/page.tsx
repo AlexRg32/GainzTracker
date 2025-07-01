@@ -1,4 +1,6 @@
-import Header from './components/Header';
+import React from 'react';
+import Header from './components/header';
+import SectionBienvenida from './components/WelcomeSection';
 
 export default function Home() {
   return (
@@ -6,12 +8,7 @@ export default function Home() {
       <Header />
 
       {/* Sección 1: Bienvenida */}
-      <section id="inicio" className="bg-blue-800 flex items-center justify-center py-50">
-        <div className="container mx-auto p-4 text-center animate-fade-in">
-          <h1 className="text-4xl font-bold mb-4">Welcome to Gainz Tracker 💪</h1>
-          <p className="text-lg text-gray-600">Track your progress and achieve your fitness goals.</p>
-        </div>
-      </section>
+      <SectionBienvenida />
 
       {/* Sección 2: Servicios o funcionalidades */}
       <section id="features" className="p-10 bg-blue-700">
