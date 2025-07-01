@@ -1,10 +1,14 @@
 const SectionBienvenida = () => {
     return (
-        <section id="inicio" className="bg-blue-800 flex items-center justify-center py-50">
-        <div className="container mx-auto p-4 text-center animate-fade-in">
-          <h1 className="text-4xl font-bold mb-4">Welcome to Gainz Tracker 💪</h1>
-          <p className="text-lg text-gray-600">Track your progress and achieve your fitness goals.</p>
-        </div>
+        <section id="inicio" className="bg-amber-200 flex items-center justify-center py-50 h-200">
+        <video 
+        src="5756199-hd_1920_816_24fps.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover z-0">
+        </video>
       </section>
     );
     }
