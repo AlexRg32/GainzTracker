@@ -4,7 +4,7 @@ import { Menu } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="bg-blue-950 text-white  p-4 fixed top-0 left-0 w-full h-20 z-50 ">
+    <header className="bg-[#0f172a] text-[#f1f5f9]  p-4 fixed top-0 left-0 w-full h-20 z-50 ">
 
       <div className="  flex flex-row md:flex-row justify-between items-center h-full   ">
 
