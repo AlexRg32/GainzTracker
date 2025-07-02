@@ -1,6 +1,6 @@
 const SectionBienvenida = () => {
   return (
-    <section id="inicio" className="w-full h-[40vh] md:h-[80vh]">
+    <section id="inicio" className="w-full h-[40vh] md:h-[80vh] bg-gradient-to-b from-[#0f172a] to-blue-900">
       <video 
         src="/5756199-hd_1920_816_24fps.mp4"
         autoPlay
