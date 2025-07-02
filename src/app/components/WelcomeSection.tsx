@@ -1,17 +1,20 @@
 const SectionBienvenida = () => {
-    return (
-        <section id="inicio" className="bg-amber-200 flex items-center justify-center py-50 h-200">
-        <video 
-        src="5756199-hd_1920_816_24fps.mp4"
+  return (
+    <section id="inicio" className="w-full h-[40vh] md:h-[80vh]">
+      <video 
+        src="/5756199-hd_1920_816_24fps.mp4"
         autoPlay
         loop
         muted
         playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-0">
-        </video>
-      </section>
-    );
-    }
+        className="h-full w-full object-cover"
+      />
+      <div className="absolute inset-0 flex flex-col items-center justify-center  text-white h-[40vh] md:h-[80vh]">
+        <h1 className="text-2xl md:text-4xl font-bold drop-shadow-lg">¡Bienvenido a Gainz Tracker!</h1>
+        <p className="text-lg  mt-2 drop-shadow-lg">Tu progreso fitness empieza aquí.</p>
+      </div>
+    </section>
+  );
+}
 
-    export default SectionBienvenida;
-    
+export default SectionBienvenida;
